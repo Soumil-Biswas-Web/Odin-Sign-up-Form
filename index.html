@@ -8,6 +8,58 @@
     <title>Document</title>
 </head>
 <body>
-    
+    <div class="sign_up_window">
+        <div class="background">
+            <img id="background_img" src="Images/home-mobile.png" alt="">
+            <div class="logo_container">
+                <img id="logo" src="Images/BennysOriginalMotorWorks-GTAO-Logo.webp" alt="">
+            </div>
+        </div>
+        <div class="sign_up_panel">
+            <!--FORM-->
+            <form id="sign_up_form">
+                <p class="top_snip">At some point, anyone who's anyone in Los Santos has looked out over a ten-car garage full of nothing but stock Elegies and wondered what the hell they're doing with their life. Well, thanks to Benny you can wonder no more: now every one of those beauties is a nostalgia-fueled, mod-drenched, early 90s retro custom classic just waiting to happen. <br> <br> You <em>know</em> you want to.</p>
+
+                <fieldset class="white">
+                    <p class="legend">Be Decadant! Sign Up for the ultimate Indulgence!</p>
+                    <div class="name">
+                        <div class="right_side">
+                            <label for="first_name">FIRST NAME</label>
+                            <input type="text" id="first_name" name="first_name">
+                        </div>
+                        <div class="left_side">
+                            <label for="last_name">LAST NAME</label>
+                            <input type="text" id="last_name" name="last_name">
+                        </div>                    
+                    </div>
+                    <div class="contact">
+                        <div class="right_side">
+                            <label for="email">EMAIL</label>
+                            <input type="email" id="email" name="email">    
+                        </div>
+                        <div class="left_side">
+                            <label for="phone_number">PHONE NUMBER</label>
+                            <input type="number" id="phone_number" name="phone_number" maxlength="10" minlength="10" title="Please enter valid 10 digit Phone Number">
+                        </div>
+                    </div>
+                    <div class="password">
+                        <div class="right_side">
+                            <label for="password">PASSWORD</label>
+                            <input type="password" id="password" name="password">
+                            <p id="wrong_password">*Passwords do not match</p>
+                        </div>
+                        <div class="left_side">
+                            <label for="confirm_password">CONFIRM PASSWORD</label>
+                            <input type="password" id="confirm_password" name="confirm_password">                    
+                        </div>
+                    </div>    
+                </fieldset>
+                <div class="button_area">
+                    <button type="submit"> Create Account</button>
+                    <p>Already have an Account? <a href="">Log In</a></p>
+                </div>
+            </form>
+        </div>
+    </div>
 </body>
 </html>
